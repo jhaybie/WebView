@@ -25,22 +25,22 @@
                                 </connections>
                             </webView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VDd-Wn-qCg">
-                                <rect key="frame" x="0.0" y="24" width="320" height="44"/>
+                                <rect key="frame" x="-8" y="24" width="328" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="&lt;" width="33" id="h7F-cO-EsK">
+                                    <barButtonItem enabled="NO" title="&lt;" width="16" id="h7F-cO-EsK">
                                         <connections>
                                             <action selector="backPressed:" destination="vXZ-lx-hvc" id="wpF-H9-h9k"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title=">" width="33" id="0wu-Po-09e">
+                                    <barButtonItem enabled="NO" title=">" width="16" id="0wu-Po-09e">
                                         <connections>
                                             <action selector="forwardPressed:" destination="vXZ-lx-hvc" id="rHF-Ya-mdF"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" id="evt-Zn-j94">
                                         <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="js6-TF-yKG">
-                                            <rect key="frame" x="102" y="7" width="176" height="30"/>
+                                            <rect key="frame" x="68" y="7" width="250" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
@@ -52,7 +52,7 @@
                                 </items>
                             </toolbar>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Wnp-OV-zNu">
-                                <rect key="frame" x="289" y="36" width="20" height="20"/>
+                                <rect key="frame" x="293" y="36" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
                         </subviews>
@@ -63,7 +63,7 @@
                         <outlet property="addressBar" destination="js6-TF-yKG" id="CU2-4I-kPL"/>
                         <outlet property="backButton" destination="h7F-cO-EsK" id="82I-nt-jl8"/>
                         <outlet property="forwardButton" destination="0wu-Po-09e" id="MRg-PG-nS6"/>
-                        <outlet property="isLoading" destination="Wnp-OV-zNu" id="xMH-fO-aef"/>
+                        <outlet property="spinner" destination="Wnp-OV-zNu" id="gZl-Wn-0av"/>
                         <outlet property="webView" destination="Lmu-EQ-XSf" id="xlM-mV-QT8"/>
                     </connections>
                 </viewController>
