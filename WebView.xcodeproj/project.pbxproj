@@ -199,6 +199,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Jhaybie;
 				TargetAttributes = {
+					E4E7254717F0ACB400E9F1DF = {
+						DevelopmentTeam = 6WU2E2K28R;
+					};
 					E4E7256817F0ACB400E9F1DF = {
 						TestTargetID = E4E7254717F0ACB400E9F1DF;
 					};
@@ -378,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jhaybie Basco (WP22QBA9FT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebView/WebView-Prefix.pch";
 				INFOPLIST_FILE = "WebView/WebView-Info.plist";
@@ -391,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebView/WebView-Prefix.pch";
 				INFOPLIST_FILE = "WebView/WebView-Info.plist";
@@ -460,6 +465,7 @@
 				E4E7257C17F0ACB400E9F1DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4E7257D17F0ACB400E9F1DF /* Build configuration list for PBXNativeTarget "WebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +474,7 @@
 				E4E7257F17F0ACB400E9F1DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
